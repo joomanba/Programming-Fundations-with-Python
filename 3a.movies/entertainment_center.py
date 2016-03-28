@@ -33,4 +33,8 @@ hunger_games = media.Move("Hunger Games",
                           "https://www.youtube.com/watch?v=PbA63a7H0bo")
 
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+#print(media.Move.VALID_RATINGS)
+print(media.Move.__doc__)
+print(media.Move.__module__)
+print(media.Move.__name__)
